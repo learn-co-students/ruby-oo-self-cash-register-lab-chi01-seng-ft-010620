@@ -28,7 +28,7 @@ class CashRegister
     end
 
     def void_last_transaction
-        self.items.pop
+        #self.items.pop
         self.total -= last_item_price
     end
 end
